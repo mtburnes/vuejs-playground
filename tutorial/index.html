@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Vue!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:600|Barlow:500" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-reboot.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="./main.css">
+ 	</head>
+ 	<body>
+		<main>
+			<div id="navbar" class="top-nav-bar">
+				<item
+					v-for="item in buttons"
+					:key="item.id"
+					:title="item.title"
+					:url="item.url"></item>
+			</div>
+			<!-- Using v-text to prevent the "{{ text }}" from showing up before the page loads completely. -->
+			<div id="app"></div>
+
+			<script src="https://unpkg.com/vue@next"></script>
+			<script src="index.js"></script>
+		</main>
+	</body>
+</html>	

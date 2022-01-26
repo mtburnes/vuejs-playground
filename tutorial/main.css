@@ -1,0 +1,64 @@
+body {
+	font: 500 18px/1.75 'Barlow', sans-serif;
+	background: #081823;
+	color: #e0e3e6;
+	padding: 0 8px;
+}
+body img{
+	float: right;
+	max-height: 220px;
+	padding-right: 20px;
+}
+
+body p,span{
+	font: 500 18.1px/1.5 'Barlow', sans-serif;
+	background: #081823;
+	color: #e0e3e6;
+}
+
+main {
+	max-width: 50em;
+	margin: 5em auto;
+}
+
+h1, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+a {
+	color: #45a4e8;
+}
+
+.contact-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.contact-category {
+	display: inline-block;
+	min-width: 3.5em;
+}
+.top-nav-bar {
+  	overflow: hidden;
+  	margin: 0 -12px;
+}
+.top-nav-bar a {
+	float: left;
+	color: #45a4e8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+footer {
+	font-size: 0.6em;
+	text-align: right;
+}
+
+@media (max-height: 400px) {
+	main {
+		margin: 1em auto;
+	}
+}
