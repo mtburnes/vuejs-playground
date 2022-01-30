@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "TrendySimulator",
+            "url": "https://twitter.com/TrendySimulator",
+            "content": ["This project was created in 56 hours during a Major League Hacking competition. It is a twitter bot that uses <a herf=\"https://en.wikipedia.org/wiki/Markov_chain\">Markov Chaining</a> to create tweets based on currently trending tags. It scrapes tweets on a selected tag, along with images and hashtags, and creates the \"perfect (read: most average) tweet\". It also uses the Google Vision API to gather information on images to add the most relevant image.","Project is hosted on <a href=\"https://github.com/ForeverAnApple/TrendingSimulator\">GitHub</a>"]
+        },
+        {
+            "id": 1,
+            "name": "Home Weather",
+            "url": "",
+            "content": ["This project was created in 56 hours during a Major League Hacking competition. It is a twitter bot that uses <a herf=\"https://en.wikipedia.org/wiki/Markov_chain\">Markov Chaining</a> to create tweets based on currently trending tags. It scrapes tweets on a selected tag, along with images and hashtags, and creates the \"perfect (read: most average) tweet\". It also uses the Google Vision API to gather information on images to add the most relevant image.","A project created by <a href=\"https://a.lexg.dev/\">Alex Gittemeier</a> and I over about three months during the spring 2019 semester. Because Midwestern weather is liable to change on a dime, we got tired of having to dig out a phone or wait for a webpage to load to be able to get a quick glance at the forecast. It was created with convience in mind. It is programmed primarily in Ruby and uses <a href=\"https://darksky.net/\">Dark Sky</a> for weather information, which provides a lot of useful information, such as weather alerts issued by NOAA. The whole project is comprised of a Raspberry Pi 3 and a dot-martix display harvested from an Acellus server. Despite the fact that the original software used to control the panel was closed source, the software was reverse engineered, allowing for full control of the device.", "Current functionality is light, but useful: <ul>    <li>Weather Condition (Cloudy, Clear, Rain, etc.)</li> <li>Current Temperature</li> <li>Today's High/Low</li> <li>NOAA Weather Alerts (When issued)</li> <li>Estimated Precipitation (When rain is forcasted)</li></ul>", "<i>This project is currently shelved. The dot matrix display is currently bricked.</i>"]
+        }
+    ]
+}
